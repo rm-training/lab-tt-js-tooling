@@ -7,7 +7,7 @@ anchors.forEach(el => {
     e.preventDefault();
     const color = getRandomColor();
     setDefaultColor(color);
-    console.log('Default is now', defaultColor);
+    console.log('Color App: Default is now', defaultColor);
     e.currentTarget.style.backgroundColor = color;
   })
 })
