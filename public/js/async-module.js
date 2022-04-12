@@ -6,10 +6,10 @@ function makeProm() {
   });
 }
 
-console.log('Child Module, I use await');
+console.log('Child Module: I use await');
 
 const data = await makeProm();
 
-console.log('Child Module, Resolved to', data);
+console.log('Child Module: settled to ', data);
 
 export { makeProm }
