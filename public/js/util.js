@@ -1,3 +1,5 @@
+console.group("From the util.js module");
+
 export function sayHello() {
   console.log("Hello");
 }
@@ -11,3 +13,5 @@ export function doMath(x, y) {
 window.thingy = function () {
   console.log("mutated window");
 };
+
+console.groupEnd();
